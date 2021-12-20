@@ -246,6 +246,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
+  padding-top: 30px;
   background: #f6f6f6;
 }
 #features i.fa {
@@ -259,6 +260,23 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.features-box div {
+  padding-bottom: 30px;
+}
+/* Design Section */
+#design {
+  margin-top: 100px;
+}
+#design form div {
+  margin: 10px 0;
+}
+
+.design-parameter {
+  border: #ddd 2px solid;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
 }
 /* About Section */
 #about {
@@ -442,6 +460,7 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+  background-color: #e7e2e3;
 }
 #team h4 {
   margin: 5px 0;
