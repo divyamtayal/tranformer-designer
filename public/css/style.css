@@ -227,6 +227,16 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+.intro h3 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 20px 0;
+  letter-spacing: 6px;
+}
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
@@ -264,6 +274,12 @@ header .intro-text {
 .features-box div {
   padding-bottom: 30px;
 }
+
+/* Guide Section */
+#guide {
+  margin-top: 100px;
+}
+
 /* Design Section */
 #design {
   margin-top: 100px;
@@ -352,7 +368,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #000000 0%, #020202 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -368,6 +384,13 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+.services-img {
+  height: 360px;
+  width: auto;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -460,7 +483,7 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
-  background-color: #e7e2e3;
+  background-color: #f6f6f6;
 }
 #team h4 {
   margin: 5px 0;
