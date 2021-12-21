@@ -277,7 +277,7 @@ header .intro-text {
 
 /* Guide Section */
 #guide {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 /* Design Section */
@@ -645,4 +645,88 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+#guide ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #8b8b8b;
+}
+
+#guide ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #8b8b8b;
+}
+
+/* This hides the dropdowns */
+
+#guide li ul {
+  display: none;
+}
+
+#guide ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+#guide ul li a:hover {
+  background: #2c3e50;
+}
+
+/* Display the dropdown */
+
+#guide li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+#guide li:hover li {
+  float: none;
+}
+
+#guide li:hover a {
+  background: #8b8b8b;
+}
+
+#guide li:hover li a:hover {
+  background: #2c3e50;
+}
+
+#guide .main-navigation li ul li {
+  border-top: 0;
+}
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+#guide ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+/* Simple clearfix */
+
+#guide ul:before,
+#guide ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+#guide ul:after {
+  clear: both;
+}
+
+.guide-content {
+  margin: 30px 0;
+}
+.guide-content div {
+  display: block;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
