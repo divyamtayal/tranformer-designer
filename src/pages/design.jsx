@@ -110,7 +110,7 @@ const Design = () => {
 
     // Yoke Design
     const areaYokeLimbRatio = 1.2;
-    const yokeFluxDensity = fluxDensity / areaYokeLimbRatio;
+    // const yokeFluxDensity = fluxDensity / areaYokeLimbRatio;
     const netAreaOfYoke = areaYokeLimbRatio * netIronArea;
     const grossAreaOfYoke = netAreaOfYoke / 0.9;
 
