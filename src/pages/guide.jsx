@@ -60,7 +60,7 @@ const Guide = () => {
           <ul>
             <li>
               <a className="page-scroll" href="#bucholzrelay">
-                Bucholz Relay
+                Buchholz Relay
               </a>
             </li>
             <li>
@@ -759,6 +759,200 @@ const Guide = () => {
         </div>
         <div id="components">
           <h2>Components</h2>
+          <p>
+            For providing long service life to the transformer, different
+            transformer accessories get fitted with it. These transformer
+            accessories should also be included in our study for better
+            understanding transformer operation and maintenance.
+          </p>
+        </div>
+        <div id="bucholzrelay">
+          <h2>Buchholz Relay</h2>
+          <p>
+            A Buchholz relay is a safety device mounted on (some) oil-filled
+            power transformers and reactors, equipped with an external overhead
+            oil reservoir called a “conservator”. Buchholz relays are used as a
+            protective device, as they are sensitive to the effects of
+            dielectric failure that can occur inside the equipment they protect.
+            Buchholz relays are a type of gas detection relay. Buchholz relays
+            have two main elements. The upper element consists of a float. The
+            float is attached to a hinge in such a way that it can move up and
+            down depending upon the oil level in the Buchholz relay container. A
+            mercury switch is fixed on the float. The alignment of the mercury
+            switch hence depends upon the position of the float. The lower
+            element consists of a baffle plate and a mercury switch. This plate
+            is fitted on a hinge just in front of the inlet (main tank side) of
+            the Buchholz relay in a transformer in such a way that when oil
+            enters in the relay from that inlet in high pressure the alignment
+            of the baffle plate along with the mercury switch attached to it,
+            will change.
+          </p>
+          <img
+            src="img/guide/relay.png"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            In addition to these main elements, a Buchholz relay has gas release
+            pockets on top. The electrical leads from both mercury switches are
+            taken out through a molded terminal block.
+          </p>
+          <h3>Buchholz Relay Working Principle</h3>
+          <p>
+            The Buchholz relay working principle is very simple. Buchholz relay
+            function is based on a very simple mechanical phenomenon. It is
+            mechanically actuated. Whenever there will be a minor internal fault
+            in the transformer such as an insulation fault between turns, break
+            down of core of the transformer, core heating, the insulating
+            transformer oil will be decomposed in different hydrocarbon gases,
+            CO2 and CO. The gases produced due to the decomposition of
+            transformer insulating oil will accumulate in the upper part of the
+            Buchholz container which causes a fall of the oil level in it. The
+            video below shows a working animation of a Buchholz relay: Fall of
+            oil level means lowering the position of the float and thereby
+            tilting the mercury switch.
+          </p>
+          <p>
+            The contacts of this mercury switch are closed and an alarm circuit
+            energized. Sometimes due to oil leakage on the main tank air bubbles
+            may be accumulated in the upper part of the Buchholz container which
+            may also cause a fall of oil level in it and the alarm circuit will
+            be energized. By collecting the accumulated gases from the gas
+            release pockets on the top of the relay and by analyzing them one
+            can predict the type of fault in the transformer. More severe types
+            of faults, such as short circuits between phases or to earth and
+            faults in the tap changing equipment, are accompanied by a surge of
+            oil that strikes the baffle plate and causes the mercury switch of
+            the lower element to close.
+          </p>
+          <p>
+            This switch energized the trip circuit of the circuit breakers
+            associated with the transformer and immediately isolate the faulty
+            transformer from the rest of the electrical power system by
+            inter-tripping the circuit breakers associated with both LV and HV
+            sides of the transf
+          </p>
+          <h3>Buchholz Relay Operation Certain Precaution</h3>
+          <p>
+            The Buchholz relay operation may be actuated without any fault in
+            the transformer. For instance, when oil is added to a transformer,
+            air may get in together with oil, accumulated under the relay cover,
+            and thus cause a false Buchholz relay operation.
+          </p>
+          <img
+            src="img/guide/relayOp.gif"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            That is why the mechanical lock is provided in that relay so that
+            one can lock the movement of mercury switches when oil is topping up
+            in the transformer. This mechanical locking also helps to prevent
+            unnecessary movement of breakable glass bulbs of mercury switches
+            during transportation of the Buchholz relays. The lower float may
+            also falsely operate if the oil velocity in the connection pipe
+            through, not due to an internal fault, is sufficient to trip over
+            the float. This can occur in the event of the external short circuit
+            when overcurrents flowing through the winding cause overheated the
+            copper and the oil and cause the oil to expand.
+          </p>
+        </div>
+        <div id="breather">
+          <h2>Breather</h2>
+          <img
+            src="img/guide/breather.png"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            When the temperature changes occur in transformer insulating oil,
+            the oil expands or contracts and there an exchange of air also
+            occurs when transformer is fully loaded. When transformer gets
+            cooled, the oil level goes down and air gets absorbed within. This
+            process is called breathing and the apparatus that pass through the
+            air is called breather. Actually, silica gel breathers controls the
+            level of moisture, entering electrical equipment during the change
+            in volume of the cooling medium and/or airspace caused by
+            temperature increasing.
+          </p>
+        </div>
+        <div id="constank">
+          <h2>Conservator Tank</h2>
+          <img
+            src="img/guide/constank.png"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            This is a cylindrical tank mounted on supporting structure on the
+            roof of the transformer’s main tank. When transformer is loaded, the
+            temperature of oil increases and consequently the volume of oil in
+            the transformer gets increased. Again; when ambient temperature is
+            increased, the volume of oil is also increased. The conservator tank
+            of a transformer provides adequate space for expansion of oil.
+            Conservator tank of transformer also acts as a reservoir of oil.
+          </p>
+        </div>
+        <div id="explosiontank">
+          <h2>Explosion Tank</h2>
+          <p>
+            The purpose of the explosion vent in a transformer is to prevent
+            damage of the transformer tank be releasing any excessive pressure
+            generated inside the transformer.
+          </p>
+          <h3>Construction of Explosion Vent of Transformer</h3>
+          <p>
+            This is nothing but a bent pipe with thin aluminium diaphragms at
+            both ends. A wire mesh is provided at lower end of the explosion
+            vent to prevent the pieces of rutted diaphragm from entering the
+            tank. A wire mesh is also provided at upper end of vent pipe to
+            protect mechanical damages of upper diaphragm. Near the lower end, a
+            small oil level indicator is provided to lower diaphragm ruptures;
+            transformer oil rises in the vent pipe and is visible through the
+            indicator indicating the failure of the lower diaphragm.
+          </p>
+          <p>
+            If even after brushing the lower diaphragm, there is enough pressure
+            and is not reduced, the upper diaphragm then bursts out to give way
+            to release the inside pressure of transformer tank by thronging out
+            oil and gases. In this way, explosion vent of transformer prevents
+            mechanical damage to the transformer tank. Sometimes, upper portion
+            of conservator tank is connected with explosion vent with an
+            equalizer pipe with or without a valve.
+          </p>
+        </div>
+        <div id="radiator">
+          <h2>Radiator</h2>
+          <p>
+            Oil immersed transformer is always provided with radiator. In case
+            of electrical power transformer, the radiators are detachable and
+            transported separately to the site. The upper and lower portions of
+            the radiator unit is connected with the transformer tank via valves.
+            These values are provided to prevent draining of oil during
+            detaching a radiator unit from the transformer for cleaning and
+            maintenance purposes.
+          </p>
+          <img
+            src="img/guide/radiator.png"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <h3>Operation and Purpose of Radiator in Transformer</h3>
+          <p>
+            When transformer is in the loaded condition, the hot oil comes up in
+            the main tank, and enters into the radiator tank through upper
+            valve. As the heat transfer surface of the radiator is quite large,
+            the oil gets cooled and enters into the transformer tank via lower
+            value of radiator units. The convectional flow of oil in the tank
+            and radiator of transformer continues. The cooling effect of
+            radiator can be accelerated by applying force air to the radiator
+            outer wall by air fans.
+          </p>
         </div>
       </div>
     </div>
