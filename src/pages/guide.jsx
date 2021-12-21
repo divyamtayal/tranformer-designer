@@ -1,4 +1,3 @@
-import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "../App.css";
 
