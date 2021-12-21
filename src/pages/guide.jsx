@@ -14,17 +14,17 @@ const Guide = () => {
         <ul class="main-navigation">
           <li>
             <a className="page-scroll" href="#types">
-              Types of Tranformers
+              Types of Transformers
             </a>
             <ul>
               <li>
                 <a className="page-scroll" href="#instrumentaltf">
-                  Intrumental Tranformer
+                  Intrumental Transformer
                 </a>
               </li>
               <li>
                 <a className="page-scroll" href="#powertf">
-                  Power Tranformer
+                  Power Transformer
                 </a>
               </li>
               <li>
@@ -51,7 +51,7 @@ const Guide = () => {
           </li>
           <li>
             <a className="page-scroll" href="#tfEfficiency">
-              Tranformer Efficiency
+              Transformer Efficiency
             </a>
           </li>
           <li>
@@ -196,8 +196,8 @@ const Guide = () => {
             </a>
             <ul>
               <li>
-                <a className="page-scroll" href="#onam">
-                  ONAM
+                <a className="page-scroll" href="#onan">
+                  ONAN
                 </a>
               </li>
               <li>
@@ -230,8 +230,8 @@ const Guide = () => {
         </ul>
       </div>
       <div className="container guide-content">
-        <div id="tranformers">
-          <h2>Tranformers</h2>
+        <div id="transformers">
+          <h2>Transformers</h2>
           <p>
             Transformer, device that transfers electric energy from one
             alternating-current circuit to one or more other circuits, either
@@ -263,7 +263,7 @@ const Guide = () => {
             Isolation transformers are usually employed for reasons of safety to
             isolate a piece of equipment from the source of power.
           </p>
-          <h3>Equivalent Circuit of Tranformer</h3>
+          <h3>Equivalent Circuit of Transformer</h3>
           <p>
             The equivalent circuit diagram of a transformer is a simplified
             circuit in which the impedance, resistance and leakage reactance of
@@ -322,11 +322,11 @@ const Guide = () => {
           </p>
         </div>
         <div id="types">
-          <h2>Types of Tranformers</h2>
+          <h2>Types of Transformers</h2>
         </div>
         <div id="instrumentaltf">
           <p>
-            <h2>Instrumental Tranformer</h2>
+            <h2>Instrumental Transformer</h2>
             <p>
               Instrument Transformers are used in AC system for measurement of
               electrical quantities i.e. voltage, current, power, energy, power
@@ -342,7 +342,7 @@ const Guide = () => {
               these small rating measuring instruments. Therefore these
               instrument transformers are very popular in modern power system.
             </p>
-            <h3>Advantage of Intrumental Tranformer</h3>
+            <h3>Advantage of Intrumental Transformer</h3>
             <p>
               1. The large voltage and current of AC Power system can be
               measured by using small rating measuring instrument i.e. 5 A, 110
@@ -361,7 +361,7 @@ const Guide = () => {
               there is low power consumption in measuring and protective
               circuits.
             </p>
-            <h3>Types of Intrumental Tranformer</h3>
+            <h3>Types of Intrumental Transformer</h3>
             <h3>Current Transformer</h3>
             <p>
               Current transformer is used to step down the current of power
@@ -422,7 +422,7 @@ const Guide = () => {
           </p>
         </div>
         <div id="singletf">
-          <h2>Single Phase Tranformer</h2>
+          <h2>Single Phase Transformer</h2>
           <p>
             A single phase transformer is a type of transformer which operates
             on single-phase power. A transformer is a passive electrical
@@ -1112,8 +1112,143 @@ const Guide = () => {
             short-circuit withstand capability <br></br>• High mechanical
             strength <br></br>• High dielectric strength <br></br>• Excellent
             control of leakage magnetic flux <br></br>• Efficient cooling
-            capability <br></br>• Flexible design <br></br>• Compact size{" "}
+            capability <br></br>• Flexible design <br></br>• Compact size
             <br></br>• Highly Reliable Design
+          </p>
+        </div>
+        <div id="cooling">
+          <h2>Cooling of Transformers</h2>
+          <p>
+            The main source of heat generation in transformer is its copper loss
+            or I2R loss. Although there are other factors contribute heat in
+            transformer such as hysteresis and eddy current losses but
+            contribution of I2R loss dominate them. If this heat is not
+            dissipated properly, the temperature of the transformer will rise
+            continually which may cause damages in paper insulation and liquid
+            insulation medium of transformer.
+          </p>
+          <img
+            src="img/guide/col1.gif"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            So it is essential to control the temperature with in permissible
+            limit to ensure the long life of transformer by reducing thermal
+            degradation of its insulation system. In electrical power
+            transformer we use external transformer cooling system to accelerate
+            the dissipation rate of heat of transformer. There are different
+            transformer cooling methods available for trans former, we will now
+            explain one by one.
+          </p>
+        </div>
+        <div id="onan">
+          <h2>ONAN Cooling of Transformer</h2>
+          <img
+            src="img/guide/col2.gif"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            This is the simplest transformer cooling system. The full form of
+            ONAN is “Oil Natural Air Natural”. Here natural convectional flow of
+            hot oil is utilized for cooling. In convectional circulation of oil,
+            the hot oil flows to the upper portion of the transformer tank and
+            the vacant place is occupied by cold oil. This hot oil which comes
+            to upper side, will dissipate heat in the atmosphere by natural
+            conduction, convection and radiation in air and will become cold. In
+            this way the oil in the transformer tank continually circulate when
+            the transformer put into load. As the rate of dissipation of heat in
+            air depends upon dissipating surface of the oil tank, it is
+            essential to increase the effective surface area of the tank. So
+            additional dissipating surface in the form of tubes or radiators
+            connected to the transformer tank. This is known as radiator of
+            transformer or radiator bank of transformer. We have shown below a
+            simplest form on natural cooling or ONAN cooling arrangement of an
+            earthing transformer below.
+          </p>
+        </div>
+        <div id="onaf">
+          <h2>ONAF Cooling of Transformer</h2>
+          <img
+            src="img/guide/col2.gif"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
+          <p>
+            Heat dissipation can obviously be increased, if dissipating surface
+            is increased but it can be make further faster by applying forced
+            air flow on that dissipating surface. Fans blowing air on cooling
+            surface is employed. Forced air takes away the heat from the surface
+            of radiator and provides better cooling than natural air. The full
+            form of ONAF is “Oil Natural Air Forced”. As the heat dissipation
+            rate is faster and more in ONAF transformer cooling method than ONAN
+            cooling system, electrical power transformer can be put into more
+            load without crossing the permissible temperature limits.
+          </p>
+        </div>
+        <div id="ofaf">
+          <h2>OFAF Cooling of Transformer</h2>
+          <p>
+            The heat dissipation rate can be still increased further if this oil
+            circulation is accelerated by applying some force. In OFAF cooling
+            system the oil is forced to circulate within the closed loop of
+            transformer tank by means of oil pumps. OFAF means “Oil Forced Air
+            Forced” cooling methods of transformer. The main advantage of this
+            system is that it is compact system and for same cooling capacity
+            OFAF occupies much less space than farmer two systems of transformer
+            cooling. Actually in oil natural cooling system, the heat comes out
+            from conducting part of the transformer is displaced from its
+            position, in slower rate due to convectional flow of oil but in
+            forced oil cooling system the heat is displaced from its origin as
+            soon as it comes out in the oil, hence rate of cooling becomes
+            faster.
+          </p>
+          <img src="img/guide/col3.gif" className="img-responsive" alt="" />
+          <p>
+            In oil forced air natural cooling system of transformer, the heat
+            dissipation is accelerated by using forced air on the dissipating
+            surface but circulation of the hot oil in transformer tank is
+            natural convectional flow.
+          </p>
+        </div>
+        <div id="ofwf">
+          <h2>OFAF Cooling of Transformer</h2>
+          <p>
+            We know that ambient temperature of water is much less than the
+            atmospheric air in same weather condition. So water may be used as
+            better heat exchanger media than air. In OFWF cooling system of
+            transformer, the hot oil is sent to a oil to water heat exchanger by
+            means of oil pump and there the oil is cooled by applying sowers of
+            cold water on the heat exchanger’s oil pipes. OFWF means “Oil Forced
+            Water Forced” cooling in transformer.
+          </p>
+        </div>
+        <div id="odaf">
+          <h2>ODAF Cooling of Transformer</h2>
+          <p>
+            ODAF or oil directed air forced cooling of transformer can be
+            considered as the improved version of OFAF. Here forced circulation
+            of oil directed to flow through predetermined paths in transformer
+            winding. The cool oil entering the transformer tank from cooler or
+            radiator is passed through the winding where gaps for oil flow or
+            pre-decided oil flowing paths between insulated conductor are
+            provided for ensuring faster rate of heat transfer. ODAF or oil
+            directed air forced cooling of transformer is generally used in very
+            high rating transformer.
+          </p>
+        </div>
+        <div id="odwf">
+          <h2>ODWF Cooling of Transformer</h2>
+          <p>
+            ODWF or oil directed water forced cooling of transformer is just
+            like ODAF only difference is that here the hot oil is cooled in
+            cooler by means of forced water instead of air. Both of these
+            transformer cooling methods are called forced directed oil cooling
+            of transformer.
           </p>
         </div>
       </div>

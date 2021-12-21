@@ -68,13 +68,11 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "Divyam Tayal",
-      "job": "Web Developer"
+      "name": "Divyam Tayal"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Sakshi Singhal",
-      "job": "Web Developer"
+      "name": "Sakshi Singhal"
     },
     {
       "img": "img/team/03.jpg",
@@ -83,6 +81,9 @@
     {
       "img": "img/team/04.jpg",
       "name": "Divish Jindal"
+    }, {
+      "img": "img/team/04.jpg",
+      "name": "Yash"
     }
   ],
   "Contact": {

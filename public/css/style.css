@@ -489,7 +489,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 220px;
 }
 #team .thumbnail {
   background: transparent;
@@ -739,10 +739,10 @@ label {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  padding: 50px;
+  padding: 50px 200px;
   background-color: white;
 }
 
-#tranformers {
+#transformers {
   padding-top: 120px;
 }
