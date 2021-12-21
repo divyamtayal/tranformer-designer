@@ -139,7 +139,7 @@ const Guide = () => {
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <a className="page-scroll" href="#testing">
               Testing
             </a>
@@ -189,7 +189,7 @@ const Guide = () => {
                 </ul>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <a className="page-scroll" href="#cooling">
               Cooling

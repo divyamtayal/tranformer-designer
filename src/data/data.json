@@ -20,70 +20,61 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/portfolio/5.jpg",
+      "smallImage": "img/portfolio/5.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/portfolio/2.jpeg",
+      "smallImage": "img/portfolio/2.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/portfolio/3.jpeg",
+      "smallImage": "img/portfolio/3.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/portfolio/4.jpg",
+      "smallImage": "img/portfolio/4.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/portfolio/1.jpeg",
+      "smallImage": "img/portfolio/1.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/portfolio/6.jpg",
+      "smallImage": "img/portfolio/6.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/portfolio/7.jpg",
+      "smallImage": "img/portfolio/7.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/portfolio/8.jpg",
+      "smallImage": "img/portfolio/8.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/portfolio/9.jpeg",
+      "smallImage": "img/portfolio/9.jpeg"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/divyam.jpeg",
       "name": "Divyam Tayal"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/team/sakshi.jpg",
       "name": "Sakshi Singhal"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/team/rishav.jpeg",
       "name": "Rishav Thakur"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/divish.jpeg",
       "name": "Divish Jindal"
     }, {
-      "img": "img/team/04.jpg",
-      "name": "Yash"
+      "img": "img/team/yashnit.jpeg",
+      "name": "Yashnit"
     }
   ],
   "Contact": {
