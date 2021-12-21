@@ -10,223 +10,225 @@ export const scroll = new SmoothScroll('a[className="page-scroll" href*="#"]', {
 const Guide = () => {
   return (
     <div id="guide" className="container">
-      <ul class="main-navigation">
-        <li>
-          <a className="page-scroll" href="#types">
-            Types of Tranformers
-          </a>
-          <ul>
-            <li>
-              <a className="page-scroll" href="#instrumentaltf">
-                Intrumental Tranformer
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#powertf">
-                Power Tranformer
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#disttf">
-                Distribution Transformer
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#singletf">
-                Single Phase Transformer
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#threetf">
-                Three Phase Transformer
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#autotf">
-                Auto Transformer
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a className="page-scroll" href="#tfEfficiency">
-            Tranformer Efficiency
-          </a>
-        </li>
-        <li>
-          <a className="page-scroll" href="#components">
-            Components
-          </a>
-          <ul>
-            <li>
-              <a className="page-scroll" href="#bucholzrelay">
-                Buchholz Relay
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#breather">
-                Breather
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#constank">
-                Conservator Tank
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#explosionTank">
-                Explosion Tank
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#radiator">
-                Radiator
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a className="page-scroll" href="#windings">
-            Windings
-          </a>
-          <ul>
-            <li>
-              <a className="page-scroll" href="#wdgTypes">
-                Types
-              </a>
-              <ul>
-                <li>
-                  <a className="page-scroll" href="#coreWdg">
-                    Core Type Windings
-                  </a>
-                  <ul>
-                    <li>
-                      <a className="page-scroll" href="#cylWdg">
-                        Cylindrical Winding
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="#HelicalWdg">
-                        Helical Winding
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="#CrossOver">
-                        CrossOver Winding
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="#DiscCont">
-                        Disc and Continuous Winding
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a className="page-scroll" href="#shellWdg">
-                    Shell Type Windings
-                  </a>
-                  <ul>
-                    <li>
-                      <a className="page-scroll" href="#sandwitch">
-                        Sandwitch Winding
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a className="page-scroll" href="#testing">
-            Testing
-          </a>
-          <ul>
-            <li>
-              <a className="page-scroll" href="#onSite">
-                On Site Testing
-              </a>
-              <ul>
-                <li>
-                  <a className="page-scroll" href="#typeTest">
-                    Type Test
-                  </a>
-                </li>
-                <li>
-                  <a className="page-scroll" href="#routineTest">
-                    Routine Test
-                  </a>
-                </li>
-                <li>
-                  <a className="page-scroll" href="#specialTest">
-                    Special Test
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a className="page-scroll" href="#AtFactory">
-                At Factory Testing
-              </a>
-              <ul>
-                <li>
-                  <a className="page-scroll" href="#preCom">
-                    Pre-commissioning tests
-                  </a>
-                </li>
-                <li>
-                  <a className="page-scroll" href="#periodic">
-                    Periodic/condition monitoring tests
-                  </a>
-                </li>
-                <li>
-                  <a className="page-scroll" href="#emergency">
-                    Emergency tests
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a className="page-scroll" href="#cooling">
-            Cooling
-          </a>
-          <ul>
-            <li>
-              <a className="page-scroll" href="#onam">
-                ONAM
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#onaf">
-                ONAF
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#ofaf">
-                OFAF
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#ofwf">
-                OFWF
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#odaf">
-                ODAF
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#odwf">
-                ODWF
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div id="guide-nav">
+        <ul class="main-navigation">
+          <li>
+            <a className="page-scroll" href="#types">
+              Types of Tranformers
+            </a>
+            <ul>
+              <li>
+                <a className="page-scroll" href="#instrumentaltf">
+                  Intrumental Tranformer
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#powertf">
+                  Power Tranformer
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#disttf">
+                  Distribution Transformer
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#singletf">
+                  Single Phase Transformer
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#threetf">
+                  Three Phase Transformer
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#autotf">
+                  Auto Transformer
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a className="page-scroll" href="#tfEfficiency">
+              Tranformer Efficiency
+            </a>
+          </li>
+          <li>
+            <a className="page-scroll" href="#components">
+              Components
+            </a>
+            <ul>
+              <li>
+                <a className="page-scroll" href="#bucholzrelay">
+                  Buchholz Relay
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#breather">
+                  Breather
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#constank">
+                  Conservator Tank
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#explosionTank">
+                  Explosion Tank
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#radiator">
+                  Radiator
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a className="page-scroll" href="#windings">
+              Windings
+            </a>
+            <ul>
+              <li>
+                <a className="page-scroll" href="#wdgTypes">
+                  Types
+                </a>
+                <ul>
+                  <li>
+                    <a className="page-scroll" href="#coreWdg">
+                      Core Type Windings
+                    </a>
+                    <ul>
+                      <li>
+                        <a className="page-scroll" href="#cylWdg">
+                          Cylindrical Winding
+                        </a>
+                      </li>
+                      <li>
+                        <a className="page-scroll" href="#HelicalWdg">
+                          Helical Winding
+                        </a>
+                      </li>
+                      <li>
+                        <a className="page-scroll" href="#CrossOver">
+                          CrossOver Winding
+                        </a>
+                      </li>
+                      <li>
+                        <a className="page-scroll" href="#DiscCont">
+                          Disc and Continuous Winding
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a className="page-scroll" href="#shellWdg">
+                      Shell Type Windings
+                    </a>
+                    <ul>
+                      <li>
+                        <a className="page-scroll" href="#sandwitch">
+                          Sandwitch Winding
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a className="page-scroll" href="#testing">
+              Testing
+            </a>
+            <ul>
+              <li>
+                <a className="page-scroll" href="#onSite">
+                  On Site Testing
+                </a>
+                <ul>
+                  <li>
+                    <a className="page-scroll" href="#typeTest">
+                      Type Test
+                    </a>
+                  </li>
+                  <li>
+                    <a className="page-scroll" href="#routineTest">
+                      Routine Test
+                    </a>
+                  </li>
+                  <li>
+                    <a className="page-scroll" href="#specialTest">
+                      Special Test
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a className="page-scroll" href="#AtFactory">
+                  At Factory Testing
+                </a>
+                <ul>
+                  <li>
+                    <a className="page-scroll" href="#preCom">
+                      Pre-commissioning tests
+                    </a>
+                  </li>
+                  <li>
+                    <a className="page-scroll" href="#periodic">
+                      Periodic/condition monitoring tests
+                    </a>
+                  </li>
+                  <li>
+                    <a className="page-scroll" href="#emergency">
+                      Emergency tests
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a className="page-scroll" href="#cooling">
+              Cooling
+            </a>
+            <ul>
+              <li>
+                <a className="page-scroll" href="#onam">
+                  ONAM
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#onaf">
+                  ONAF
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#ofaf">
+                  OFAF
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#ofwf">
+                  OFWF
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#odaf">
+                  ODAF
+                </a>
+              </li>
+              <li>
+                <a className="page-scroll" href="#odwf">
+                  ODWF
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
       <div className="container guide-content">
         <div id="tranformers">
           <h2>Tranformers</h2>
@@ -1098,7 +1100,12 @@ const Guide = () => {
             voltage carries the same number of ampere-turns. The higher the
             degree of subdivision, the smaller is the reactance.
           </p>
-          <img src="img/guide/core9.png" className="img-responsive" alt="" />
+          <img
+            src="img/guide/core9.png"
+            className="img-responsive"
+            alt=""
+            align="left"
+          />
           <h3>Advantages of Shell Type Windings in Transformers</h3>
           <p>
             The advantages of shell-type windings include: <br></br>• High

@@ -277,7 +277,7 @@ header .intro-text {
 
 /* Guide Section */
 #guide {
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 /* Design Section */
@@ -729,4 +729,20 @@ label {
   float: left;
   margin-bottom: 30px;
   margin-top: 10px;
+}
+.guide-content div img {
+  margin: 10px;
+}
+
+#guide-nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 50px;
+  background-color: white;
+}
+
+#tranformers {
+  padding-top: 120px;
 }
