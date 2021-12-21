@@ -111,16 +111,6 @@ const Guide = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="page-scroll" href="#DiscHelical">
-                        Disc Helical Winding
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="#MultiLayer">
-                        Multi-Layer Winding
-                      </a>
-                    </li>
-                    <li>
                       <a className="page-scroll" href="#CrossOver">
                         CrossOver Winding
                       </a>
@@ -952,6 +942,171 @@ const Guide = () => {
             and radiator of transformer continues. The cooling effect of
             radiator can be accelerated by applying force air to the radiator
             outer wall by air fans.
+          </p>
+        </div>
+        <div id="windings">
+          <h2>Windings</h2>
+          <p>
+            There are different types of windings used for different kinds of
+            applications and arrangements. Windings are the conductors wrapped
+            in various forms like helical, disc, cylindrical, crossover which
+            generates MMF that is carried by the core to other windings for
+            having the different levels of voltages. Mainly there are two types
+            of transformer: <br></br>1. Core type transformer <br></br>2. Shell
+            type transformer<br></br>
+            In core type, we wrap the primary, and secondary windings on the
+            outside limbs, and in shell type, we place the primary and secondary
+            windings on the inner limbs. We use concentric type windings in core
+            type transformer. We place low voltage winding near to the core.
+            However, to reduce leakage reactance, windings can be interlaced.
+            Winding for core type depends on many factors like current rating,
+            short circuit withstands capacity, the limit of temperature rise,
+            impedance, surge voltage, transport facilities, etc.
+          </p>
+        </div>
+        <div id="coreWdg">
+          <h2>Core Type Winding</h2>
+          <p>
+            These windings are layered type and uses a rectangular or round
+            conductor shown in Fig.(a) and (b). The conductors are wound on flat
+            sides shown in Fig.(c) and wound on the rib side in Fig.(d).
+          </p>
+          <img src="img/guide/core1.png" className="img-responsive" alt="" />
+        </div>
+        <div id="cylwdg">
+          <h2>Cylindrical Winding</h2>
+          <p>
+            Cylindrical windings are low voltage windings used up to 6.6 kV for
+            kVA up to 600-750, and current rating between 10 to 600 A.
+          </p>
+          <img src="img/guide/core2.png" className="img-responsive" alt="" />
+          <p>
+            We often use cylindrical windings in its multi-layer forms. We use
+            rectangular conductors in two-layered type because it is easy to
+            secure the lead-out ends. Oil ducts separate the layers of the
+            windings this arrangement facilitates the cooling through oil
+            circulation in the winding.
+          </p>
+          <img src="img/guide/core3.png" className="img-responsive" alt="" />
+          <p>
+            In multi-layered cylindrical windings, we use circular conductors,
+            wound on vertical strips to improve cooling conditions. The
+            arrangement creates oil ducts to facilitate better cooling. We use
+            this types of winding for high voltage ratings up to 33 kV, 800 kVA
+            and current ratings up to 80 A. The maximum diameter we use for a
+            bare conductor is 4 mm.
+          </p>
+        </div>
+        <div id="helicalwdg">
+          <h2>Helical Type Winding</h2>
+          <p>
+            We use helical windings low voltage, high capacity transformers,
+            where the current is higher, at the same time windings turns are
+            lesser. The output of the transformer varies from 160 – 1000 kVA
+            from 0.23-15 kV. To secure adequate mechanical strength the
+            cross-sectional area of the strip not made less than 75-100 mm
+            square. The maximum number of strips used in parallel to make up a
+            conductor is 16. <br></br>There are three types: <br></br>• Single
+            Helical Winding <br></br>• Double Helical Winding <br></br>•
+            Disc-Helical Winding.<br></br>
+          </p>
+          <h3>Single Helical Winding</h3>
+          <p>
+            Single Helical Windings consist of winding in an axial direction
+            along a screw line with an inclination. There is only one layer of
+            turns in each winding. The advantage of Double Helical Winding is
+            that it reduces eddy current loss in conductors. This is on account
+            of the reduced number of parallel conductors situated in the radial
+            direction.
+          </p>
+          <img src="img/guide/core4.png" className="img-responsive" alt="" />
+          <h3>Disc Helical Winding</h3>
+          <p>
+            In Disc-Helical Windings, the parallel-connected strips are placed
+            side by side in a radial direction to occupy the total radial depth
+            of winding.
+          </p>
+          <img src="img/guide/core5.png" className="img-responsive" alt="" />
+          <h3>Multi-Layer Helical Winding</h3>
+          <p>
+            We use it commonly for high voltage ratings for 110 kV and above.
+            These types of winding consist of several cylindrical layers
+            concentrically wound and connected in series. We make the outer
+            layers shorter than the inner layers to distribute capacitance
+            uniformly. These windings primarily improve the surge behavior of
+            transformers.
+          </p>
+          <img src="img/guide/core6.png" className="img-responsive" alt="" />
+        </div>
+        <div id="CrossOver">
+          <h2>Cross Over Winding</h2>
+          <p>
+            We use these windings for high voltage windings of small
+            transformers. The conductors are paper covered round wires or
+            strips. The windings are divided into a number of coils in order to
+            reduce the voltage between adjacent layers. These coils are axially
+            separated by a distance of 0.5 to 1 mm. The voltages between
+            adjacent coils should not be more than 800 to 1000 V.
+          </p>
+          <img src="img/guide/core7.png" className="img-responsive" alt="" />
+          <p>
+            The inside end of a coil is connected to the output side end of the
+            adjacent one as shown in the above figure. The actual axial length
+            of each coil is about 50 mm while the spacing between two coils is
+            about 6 mm to accommodate blocks of insulating material. The width
+            of the coil is 25 to 50 mm. The crossover winding has a higher
+            strength than cylindrical winding under normal conditions. However,
+            the crossover has lover impulse strength than the cylindrical one.
+            This type also has higher labor costs.
+          </p>
+        </div>
+        <div id="DiscCont">
+          <h2>Disc and Continuous Winding</h2>
+          <p>
+            Primarily used for a high capacity transformer. The winding consists
+            of a number of flat coils or discs in series or parallel. The coils
+            are formed with rectangular strips wound spirally from the center
+            outwards in the radial direction as shown in the figure below.
+          </p>
+          <img src="img/guide/core8.png" className="img-responsive" alt="" />
+          <p>
+            The conductors can be a single strip or multiple strips in a
+            parallel wound on the flat side. This makes robust construction for
+            this type of windings. Discs are separated from each other with
+            press-board sectors attached to vertical stripes. The vertical and
+            horizontal spacers provide radial and axial ducts for the free
+            circulation of oil which comes in contact with every turn. The area
+            of the conductor varies from 4 to 50 mm square and limits for
+            current are 12 – 600 A. The minimum width of the oil duct is 6 mm
+            for 35 kV. The advantage of the disc and continuous windings is
+            their greater mechanical axial strength and cheapness.
+          </p>
+        </div>
+        <div id="shellWdg">
+          <h2>Shell Type Winding</h2>
+        </div>
+        <div id="sandwitch">
+          <h2>Sandwitch Winding</h2>
+          <p>
+            Allow easy control over the reactance the nearer two coils are
+            together on the same magnetic axis, the greater is the proportion of
+            mutual flux and the less is the leakage flux. Leakage can be reduced
+            by subdividing the low and high voltages sections. The end low
+            voltages sections contain half the turns of the normal low voltage
+            sections called half coils. In order to balance the magnetomotive
+            forces of adjacent sections, each normal section whether high or low
+            voltage carries the same number of ampere-turns. The higher the
+            degree of subdivision, the smaller is the reactance.
+          </p>
+          <img src="img/guide/core9.png" className="img-responsive" alt="" />
+          <h3>Advantages of Shell Type Windings in Transformers</h3>
+          <p>
+            The advantages of shell-type windings include: <br></br>• High
+            short-circuit withstand capability <br></br>• High mechanical
+            strength <br></br>• High dielectric strength <br></br>• Excellent
+            control of leakage magnetic flux <br></br>• Efficient cooling
+            capability <br></br>• Flexible design <br></br>• Compact size{" "}
+            <br></br>• Highly Reliable Design
           </p>
         </div>
       </div>
